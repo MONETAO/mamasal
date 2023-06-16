@@ -1,0 +1,312 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    max-height: 99999px;
+}
+
+@font-face {
+    font-family: 'einrogar-riegular';
+    src: url("../fonts/HeirofLightOTFRegular.otf") format("opentype");
+  }
+
+body {
+    display: block;
+    background: rgb(30, 32, 47);
+    width: 100%;
+    /*ページ全体の幅は100%と指定する*/
+    /*ページ全体を中央揃えにする*/
+    margin: 0;
+    padding: 0;
+    font-family: 'einrogar-riegular';
+}
+
+img {
+    /* max-width: 100%; */
+    vertical-align: top;
+}
+
+.choose_box {
+    position: relative;
+    width: 100%;
+}
+
+
+.choose_box li {
+    display: inline-block;
+    width: 80%;
+    margin-top: 45px;
+    list-style: none;
+    float: left;
+    width: calc(50% - 10px);
+}
+
+ul {
+    margin-left: 10%;
+    padding-left: 0;
+}
+
+
+
+.choose_box li a {
+    width: 80%;
+    color: #000000;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 21px;
+    font-family: 'einrogar-riegular';
+        border: 5px solid #a1860e;
+    text-decoration: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.choose_box li a:hover {
+    background-color: #fbffe0;
+    color: #a1860e;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+
+.app-theme p {
+    position: absolute;
+    color: #0d077e;
+    font-size: 39px;
+    top: 10vw;
+    left: 33%;
+    font-family: 'einrogar-riegular';
+}
+
+
+
+.fit {
+    position: absolute;
+    top: 15vw;
+    left: 0%;
+    width: 100%;
+}
+
+.fit p {
+    position: relative;
+    font-size: 24px;
+    font-family: 'einrogar-riegular';
+        display: block;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+
+.result_type0 h4 {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'einrogar-riegular';
+    color: #fff;
+    text-align: center;
+    background-color: #1027c0;
+}
+
+.result_type1 h4 {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'einrogar-riegular';
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.result_type2 h4 {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'einrogar-riegular';
+    color: #fff;
+    text-align: center;
+    background-color: #000000;
+}
+
+.result_type3 h4 {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'einrogar-riegular';
+    color: #fff;
+    text-align: center;
+    background-color: #8f0c26;
+}
+
+.result_type4 h4 {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'einrogar-riegular';
+    color: #fff;
+    text-align: center;
+    background-color: rgb(101, 194, 171);
+}
+
+.result_type5 h4 {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'einrogar-riegular';
+    color: #fff;
+    text-align: center;
+    background-color: rgb(9, 16, 16);
+}
+
+.result_theme p {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: 'einrogar-riegular';
+}
+
+
+.result_discription0 {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.result_discription1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.result_discription2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.result_discription3 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.result_discription0 h2 {
+    color: #120463;
+    text-align: center;
+}
+
+.result_discription1 h2 {
+    color: #5e5f52;
+    text-align: center;
+}
+
+.result_discription2 h2 {
+    color: #242424;
+    text-align: center;
+}
+
+.result_discription3 h2 {
+    color: #860f27;
+    text-align: center;
+}
+
+.result_discription4 h2 {
+    color: #13bf2d;
+    text-align: center;
+}
+
+.result_discription5 h2 {
+    color: rgb(9, 16, 16);
+    text-align: center;
+}
+
+
+.result {
+    position: absolute;
+    top: 11vw;
+    left: 0%;
+    width: 100%;
+}
