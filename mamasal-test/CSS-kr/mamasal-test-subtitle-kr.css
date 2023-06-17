@@ -1,0 +1,267 @@
+#question-01 li a {
+    width: 287%;
+    color: transparent;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+}
+
+
+#question-01 li {
+    display: inline-block;
+    margin-top: 30px;
+    list-style: none;
+    float: left;
+    width: calc(20% - 10px);
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#question-01 li:hover {
+    transform: scale(1.1);
+    /* ホバー時の拡大率を指定する例 */
+    z-index: 1;
+    /* 必要に応じて要素を手前に配置するためのZインデックスの指定 */
+    transition: transform 0.2s ease-out;
+    /* 拡大アニメーションの指定 */
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+
+.bd-img {
+    width: 125%;
+}
+
+.wt-img {
+    width: 82%;
+}
+
+.bt-img {
+    width: 95%;
+}
+
+.rb-img {
+    width: 95%;
+}
+.bd-img2 {
+    width: 128%;
+}
+
+.wt-img2 {
+    width: 46%;
+}
+
+.bt-img2 {
+    width: 38%;
+}
+
+.rb-img2 {
+    width: 108%;
+}
+
+.bg-letter {
+    background-image: url("/Users/leechaeeul/Desktop/mamasal/mamasal-test/img/bg-letter-1.png");
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+/* .bg-letter img{
+    position: absolute;
+    width: 91%;
+    top: 0vh;
+    right: 7vh;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+} */
+.bg-logo {
+    position: absolute;
+    width: 16%;
+    top: 5vw;
+    left: 4%;
+    z-index: 2;
+}
+
+.q_01 {
+    position: absolute;
+    top: 13vw;
+    left: -1%;
+    width: 100%;
+}
+
+.q_01 p {
+    position: relative;
+    font-size: 24px;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+/* slider css */
+.wrap {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* content4つをまとめたスライドブロック */
+.slideshow {
+    display: flex;
+    -webkit-animation: loop-slide 10s infinite linear 1s both; /* ここを変更 */
+    animation: loop-slide 10s infinite linear 1s both; /* ここを変更 */
+    margin-left: 0;
+}
+
+@-webkit-keyframes loop-slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes loop-slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* ホバー時に動きを止める（パターン2・3）*/
+.slide-paused:hover .slideshow {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.elseq1{
+    margin-top: 40px;
+}
+
+
+/* answer img */
+.puyong{
+    width: 18%;
+    display: block;
+    margin: auto;
+    margin-top: -9px;
+    margin-bottom: 20px;
+}
+.hingo{
+    width: 15%;
+    display: block;
+    margin: auto;
+    margin-top: -12px;
+    margin-bottom: 20px;
+}
+.gumgu{
+    width: 17%;
+    display: block;
+    margin: auto;
+    margin-top: -9px;
+    margin-bottom: 20px;
+}
+.bulsazo{
+    width: 14%;
+    display: block;
+    margin: auto;
+    margin-top: -9px;
+    margin-bottom: 20px;
+}
+
+.michin{
+    width: 25%;
+    display: block;
+    margin: auto;
+    margin-top: -41px;
+    margin-bottom: 1px;
+}
+.ihan{
+    width: 17%;
+    display: block;
+    margin: auto;
+    margin-top: -22px;
+    margin-bottom: 0px;
+}
+
+.osu{
+    /* -배경의 어두운 그라데이션 */
+
+    /* background: -moz-radial-gradient(#3a8d78, #65c2ab 20%, transparent); 
+    background: -webkit-radial-gradient(#3a8d78, #65c2ab 20%, transparent);  */
+    background: radial-gradient(#3a8d78 -9%, #65c2ab 35%, transparent 78%); 
+}
+
+.michin:hover{
+    transform: scale(1.1);
+    /* ホバー時の拡大率を指定する例 */
+    z-index: 1;
+    /* 必要に応じて要素を手前に配置するためのZインデックスの指定 */
+    transition: transform 0.2s ease-out;
+    /* 拡大アニメーションの指定 */
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.michin {
+    transition: transform 0.5s linear;
+  }
+  
+  .rotate {
+    animation: rotateAnimation 0.5s infinite linear;
+  }
+  
+  @keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .bg-logo:hover {
+    transform: scale(1.05);
+    /* ホバー時の拡大率を指定する例 */
+    z-index: 1;
+    /* 必要に応じて要素を手前に配置するためのZインデックスの指定 */
+    transition: transform 0.2s ease-out;
+    /* 拡大アニメーションの指定 */
+    transition: all 0.2s;
+}
+
+.cursor-emoji { 
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='80' height='88' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💀</text></svg>") 16 0, auto;
+}
+
+.fade-in-element {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+
+  .killyou{
+    position: absolute;
+    width: 6%;
+    top: 38.3vw;
+    left: 92%;
+  }
+  .killyou:hover{
+    transform: scale(1.1);
+    /* ホバー時の拡大率を指定する例 */
+    z-index: 1;
+    /* 必要に応じて要素を手前に配置するためのZインデックスの指定 */
+    transition: transform 0.2s ease-out;
+    /* 拡大アニメーションの指定 */
+    transition: all 0.2s;
+    cursor: pointer;
+  }
