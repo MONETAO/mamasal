@@ -238,7 +238,7 @@
     transition: transform 0.2s ease-out;
     /* 拡大アニメーションの指定 */
     transition: all 0.2s;
-          cursor: url("../img/osuicon.png"), default;
+    cursor: url("../img/osuicon.png"), default;
 }
 
 
