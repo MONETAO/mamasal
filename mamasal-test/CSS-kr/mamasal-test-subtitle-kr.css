@@ -238,11 +238,9 @@
     transition: transform 0.2s ease-out;
     /* 拡大アニメーションの指定 */
     transition: all 0.2s;
+          cursor: url("../img/osuicon.png"), default;
 }
 
-.cursor-emoji { 
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='80' height='88' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💀</text></svg>") 16 0, auto;
-}
 
 .fade-in-element {
     opacity: 0;
