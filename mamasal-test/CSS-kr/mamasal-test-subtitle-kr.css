@@ -23,9 +23,9 @@
     /* ホバー時の拡大率を指定する例 */
     z-index: 1;
     /* 必要に応じて要素を手前に配置するためのZインデックスの指定 */
-    transition: transform 0.2s ease-out;
+    transition: transform 10s ease-out;
     /* 拡大アニメーションの指定 */
-    transition: all 0.2s;
+    transition: all 10s;
     cursor: pointer;
 }
 
